@@ -1,0 +1,264 @@
+body {
+    background: #FAF7F0;
+    font-family: 'Poppins', sans-serif;
+    color: #242448;}
+
+.dark{color: #242448;}
+
+/* /////////////////////nav////////////////////// */   
+.main-bg{
+background-color: #FAF7F0;
+}
+.main-color{
+color: #FAF7F0;
+}
+
+.sec-color{
+    background-color: #A48F6433;
+}
+
+.ther-color{
+    color: #242448;
+}
+.ther-bg{
+    background-color: #242448;
+    
+}
+
+.color-big{
+    background-color: #E6E2D7;
+}
+.color-big2{
+    background-color: #D1C6B0;
+;
+}
+.btn-ther{
+    border: 2px solid #242448;
+    
+}
+
+.star-color{
+    color: #FCBC40;
+}
+
+.flex-start{
+    justify-content: flex-start;
+}
+
+
+
+.scroll-to-top{
+    background-color:#A48F64C9 ;
+}
+
+.nav-opptions:hover {
+    text-decoration: underline;
+    color: #A48F64;
+}
+/* <////////////////////nn///////////////////> */
+/* panner */
+.panner1 {
+    background-image: url(img/panner.png);
+    background-size: cover;
+
+    height: 350px;
+    margin-bottom: 0%;
+}
+
+.search-box {
+    box-shadow: 
+        0 8px 25px rgba(212, 175, 55, 0.3),
+        0 0 15px rgba(212, 175, 55, 0.2);
+}
+
+/* card */
+.main-title{
+  color:#242448;
+  font-size:42px;
+}
+
+.sub-title{
+  color:#4E4967;
+  font-size:22px;
+}
+
+.card {
+    background: #A48F6433;
+    color: #242448;
+    padding: 15px;
+    margin: 10px;
+    width: 100%;
+    border-radius: 16px;
+    border-radius: 16px;
+    transition: 0.3s;
+    position: relative;
+    min-height: 410px;
+    display: flex;
+    flex-direction: column;
+}
+
+.card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+}
+
+.card img {
+    height: 100%;
+    width: 100%;
+    object-fit: fill;
+    border-radius: 12px;
+    margin-bottom: 10px;
+}
+.location {
+    font-size: 16px;
+}
+.stars {
+    font-size: 27px;
+    color: #F4B400;
+}
+.place{
+        min-height: 40px;
+
+}
+/* price */
+.price {
+    font-weight: bolder;
+    font-size: 26px;
+    color: #24244899;
+}
+
+.old-price{
+    text-decoration: line-through;
+    color: gray;
+    font-size: 20px;
+    font-weight: 600;
+}
+
+/* button */
+.book-btn {
+    background: #BFB191;
+    padding: 7px 13px;
+    border-radius: 18px;
+    color: #242448;
+    font-size: 20px;
+    font-weight: bold;
+    transition: 0.3s;
+border: none;
+}
+
+.book-btn:hover {
+    color: rgb(234, 233, 233);
+}
+
+/* favorite */
+.fav-btn {
+    position: absolute;
+    top: 10px;
+    right: 25px;
+    color: rgb(159, 158, 158);
+    font-size: 58px;
+    cursor: pointer;
+}
+.fav-btn{
+    background: transparent;
+    border: none;
+    outline: none;
+}
+.fav-btn.active {
+    color: #BB1B1B;
+}
+
+/* pagination */
+.custom-pagination li{
+  list-style: none;
+  margin: 0 5px;
+}
+
+.custom-pagination button{
+  width: 38px;
+  height: 38px;
+  border: none;
+  border-radius: 12px;
+  background: #e6e2d7;
+  color: #242448;
+  font-weight: bold;
+}
+
+.custom-pagination button.active{
+  background: #A48F64;
+  color: white;
+}
+
+.custom-pagination button:hover{
+  background: #d1c6b0;
+}
+
+.border-gold{
+    border: 1px solid #A48F64;
+}
+.dropdown-item.active {
+    background-color: #a48f64 !important;
+}
+
+.filter-gold{
+    background-color: rgba(164, 143, 100, 0.6);
+}
+
+.color-gold{
+    background-color:rgba(124, 103, 58, 1);
+}
+.color2-gold{
+    background-color:rgba(164, 143, 100, 1);
+}
+.scroll-to-top{
+    background-color:#A48F64C9 ;
+}
+.ther-color{
+    color: #242448;
+}
+
+.discount-ribbon{
+    position: absolute;
+    top: 25px;
+    left: -50px;
+    background: linear-gradient(90deg, #C0392B, #4f1812);
+    color: #fff;
+    padding: 8px 70px;
+    font-size: 14px;
+    font-weight: 700;
+    transform: rotate(-38deg);
+    z-index: 10;
+    line-height: 1;
+}
+.discount-ribbon{
+    opacity: 0.9;
+}
+
+
+.footer-bg{
+    background-color: #242448;
+color: #A28D64 !important ;
+}
+.gold {
+   color:#A48F64C9 ;
+}
+.footer-link:hover {
+    color: #FAF7F0;
+    text-decoration: underline;
+    text-underline-offset: 5px;
+    text-decoration-thickness: 1px;
+}
+.apply-btn {
+    background: #7C673A;}
+
+.apply-btn:hover {
+    background: #A48F64;
+    color: white;
+}
+
+
+
+
+
+
+

@@ -1,0 +1,515 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.1/font/bootstrap-icons.min.css">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="icon" href="photos/logo.png">
+    <title>Gawla</title>
+</head>
+
+<body>
+    <nav class="main-bg sticky-top">
+        <div class="px-4">
+
+            <!-- Top Navbar -->
+            <div class="row align-items-center g-2">
+
+                <!-- Mobile Menu Button -->
+                <div class="col-2 d-lg-none text-start">
+
+                    <button class="navbar-toggler ther-color border-0 shadow-none p-0" type="button"
+                        data-bs-toggle="collapse" data-bs-target="#mobileMenu">
+
+                        <i class="bi bi-list fs-2"></i>
+
+                    </button>
+
+                </div>
+
+                <!-- Logo -->
+                <div class="col-5 col-lg-2 text-center text-lg-start">
+
+                    <a href="#">
+                        <img src="img/logo.png" class="img-fluid" style="max-width:70px;">
+                    </a>
+
+                </div>
+
+                <!-- Desktop Menu -->
+                <div class="col d-none d-lg-flex justify-content-center">
+
+                    <ul class="nav m-2">
+
+                        <li class="nav-item">
+                            <a href="#" class="nav-link nav-opptions ther-color">
+                                Home
+                            </a>
+                        </li>
+
+                        <li class="nav-item">
+                            <a href="#" class="nav-link nav-opptions ther-color">
+                                Category
+                            </a>
+                        </li>
+
+                        <li class="nav-item">
+                            <a href="#" class="nav-link nav-opptions ther-color">
+                                Hidden Gems
+                            </a>
+                        </li>
+
+                        <li class="nav-item">
+                            <a href="#" class="nav-link nav-opptions ther-color">
+                                Offers
+                            </a>
+                        </li>
+
+                    </ul>
+
+                </div>
+
+                <!-- Right Side -->
+                <div class="col-4 col-lg-3 d-flex justify-content-end align-items-center gap-1 flex-nowrap">
+
+                    <a href="../login" class="text-decoration-none ther-color rounded-3 btn-ther px-2 py-1 small">
+                        Login
+                    </a>
+
+                    <a href="../login/signup.html"
+                        class="text-decoration-none ther-bg text-white rounded-3 px-2 py-1 me-1 small">
+                        SignUp
+                    </a>
+
+                    <button class="btn rounded-circle d-flex align-items-center justify-content-center color-big p-2"
+                        style="width:38px; height:38px; flex-shrink:0;">
+
+                        <img src="img/cart.png" class="w-100">
+
+                    </button>
+
+                </div>
+
+            </div>
+
+            <!-- Mobile Menu -->
+            <div class="collapse d-lg-none pb-3" id="mobileMenu">
+
+                <ul class="nav flex-column ">
+
+                    <li class="nav-item">
+                        <a href="#" class="nav-link nav-opptions ther-color">
+                            Home
+                        </a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a href="#" class="nav-link nav-opptions ther-color">
+                            Category
+                        </a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a href="#" class="nav-link nav-opptions ther-color">
+                            Hidden Gems
+                        </a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a href="#" class="nav-link nav-opptions ther-color">
+                            Offers
+                        </a>
+                    </li>
+
+                </ul>
+
+            </div>
+
+        </div>
+    </nav>
+
+    <!-- Panner -->
+    <div class="panner1 d-flex justify-content-center align-items-center ">
+        <div class="">
+            <h1 class="text-white fs-1 text-nav  text-center">Explore the Best Deals Across Egypt</h1>
+            <p class="text-white fs-3 text-nav ">Find exclusive offers on top experiences and destinations</p>
+
+            <div class="d-flex align-items-center main-bg p-1 my-3 rounded-5 search-box ">
+
+                <img src="img/search (1).png" width="20" class="mx-2">
+
+                <input type="text" class="border-0 main-bg flex-grow-1" placeholder="where do you want to go?">
+
+                <button class="scroll-to-top rounded-5 border-0 px-3 py-2 text-white ms-2  text-nav ">
+                    Explore Now
+                </button>
+            </div>
+
+        </div>
+    </div>
+
+    <section class=" py-5">
+        <div class="px-5">
+            <!-- title -->
+            <div class="text-center mb-5">
+                <h3 class="fw-bold main-title">Special Offers</h3>
+                <p class="sub-title">limited-time deals you don’t want to miss</p>
+            </div>
+
+            <div class="px-3 d-flex justify-content-between align-items-center gap-3 my-4 flex-wrap">
+
+                <div class="d-flex gap-3 flex-wrap">
+
+                    <!-- Sort -->
+                    <div class="dropdown">
+                        <button class=" ther-color border-0 dropdown-toggle rounded p-2 scroll-to-top" type="button"
+                            data-bs-toggle="dropdown">
+
+                            <i class="bi bi-arrow-down-up"></i>
+                            Sort By
+                        </button>
+
+                        <ul class="dropdown-menu p-3 rounded-4 shadow border-0">
+
+                            <li><a class="dropdown-item active rounded-3 text-center mb-2 py-2" href="#">Default</a>
+                            </li>
+
+                            <li><a class="dropdown-item rounded-3 text-center mb-2 py-2 border-gold" href="#">Most
+                                    Popular</a></li>
+
+                            <li><a class="dropdown-item rounded-3 text-center mb-2 py-2 border-gold" href="#">Lowest
+                                    Price</a></li>
+
+                            <li><a class="dropdown-item rounded-3 text-center mb-2 py-2 border-gold" href="#">Highest
+                                    Discount</a></li>
+                            <li><a class="dropdown-item rounded-3 text-center mb-2 py-2 border-gold" href="#">Ending
+                                    Soon</a></li>
+
+                            <li><a class="dropdown-item rounded-3 text-center mb-2 py-2 border-gold" href="#">Highest
+                                    Rated</a></li>
+
+
+                        </ul>
+                    </div>
+
+
+                    <!-- Filters -->
+                    <div class="dropdown">
+
+                        <button class=" ther-color border-0 dropdown-toggle rounded p-2 scroll-to-top" type="button"
+                            data-bs-toggle="dropdown">
+
+                            <i class="bi bi-sliders"></i>
+                            Filters
+                        </button>
+
+
+                        <div class="dropdown-menu p-0 rounded-4 shadow border-0" style="width:280px;">
+
+                            <!-- Header -->
+                            <div
+                                class="filter-gold rounded-top-4 p-3 d-flex justify-content-between align-items-center">
+                                <div class="d-flex align-items-center gap-2">
+                                    <i class="bi bi-sliders"></i>
+                                    <h6 class="mb-0">Filters</h6>
+                                </div>
+                                <i class="bi bi-x-lg"></i>
+                            </div>
+
+                            <!-- Body -->
+                            <div class="p-3">
+
+                                <h6 class="fw-bold mb-2 ther-color">Discount</h6>
+
+                                <div class="form-check">
+                                    <input class="form-check-input" type="checkbox">
+                                    <label class="form-check-label">15%</label>
+                                </div>
+
+                                <div class="form-check">
+                                    <input class="form-check-input" type="checkbox">
+                                    <label class="form-check-label">20%</label>
+                                </div>
+
+                                <div class="form-check">
+                                    <input class="form-check-input" type="checkbox">
+                                    <label class="form-check-label">25%</label>
+                                </div>
+
+                                <div class="form-check mb-3">
+                                    <input class="form-check-input" type="checkbox">
+                                    <label class="form-check-label">30%</label>
+                                </div>
+
+                                <h6 class="fw-bold mb-2 ther-color">Availability</h6>
+
+                                <div class="form-check">
+                                    <input class="form-check-input" type="checkbox">
+                                    <label class="form-check-label">Available Today</label>
+                                </div>
+
+                                <div class="form-check">
+                                    <input class="form-check-input" type="checkbox">
+                                    <label class="form-check-label">This Week</label>
+                                </div>
+
+                                <div class="form-check mb-3">
+                                    <input class="form-check-input" type="checkbox">
+                                    <label class="form-check-label">This Month</label>
+                                </div>
+
+                                <!-- Ratings -->
+                                <h6 class="mb-2 fw-bold ther-color">Ratings</h6>
+
+                                <div class="mb-3">
+
+                                    <div class="form-check d-flex align-items-center gap-2 mb-2">
+                                        <input class="form-check-input" type="checkbox">
+                                        <div class="text-warning">
+                                            <i class="bi bi-star-fill"></i>
+                                            <i class="bi bi-star-fill"></i>
+                                            <i class="bi bi-star-fill"></i>
+                                            <i class="bi bi-star-fill"></i>
+                                            <i class="bi bi-star-fill"></i>
+                                        </div>
+                                    </div>
+
+                                    <div class="form-check d-flex align-items-center gap-2 mb-2">
+                                        <input class="form-check-input" type="checkbox">
+                                        <div class="text-warning">
+                                            <i class="bi bi-star-fill"></i>
+                                            <i class="bi bi-star-fill"></i>
+                                            <i class="bi bi-star-fill"></i>
+                                            <i class="bi bi-star-fill"></i>
+                                            <i class="bi bi-star"></i>
+                                        </div>
+                                    </div>
+
+                                    <div class="form-check d-flex align-items-center gap-2 mb-2">
+                                        <input class="form-check-input" type="checkbox">
+                                        <div class="text-warning">
+                                            <i class="bi bi-star-fill"></i>
+                                            <i class="bi bi-star-fill"></i>
+                                            <i class="bi bi-star-fill"></i>
+                                            <i class="bi bi-star"></i>
+                                            <i class="bi bi-star"></i>
+                                        </div>
+                                    </div>
+
+                                    <div class="form-check d-flex align-items-center gap-2 mb-2">
+                                        <input class="form-check-input" type="checkbox">
+                                        <div class="text-warning">
+                                            <i class="bi bi-star-fill"></i>
+                                            <i class="bi bi-star-fill"></i>
+                                            <i class="bi bi-star"></i>
+                                            <i class="bi bi-star"></i>
+                                            <i class="bi bi-star"></i>
+                                        </div>
+                                    </div>
+
+                                    <div class="form-check d-flex align-items-center gap-2">
+                                        <input class="form-check-input" type="checkbox">
+                                        <div class="text-warning">
+                                            <i class="bi bi-star-fill"></i>
+                                            <i class="bi bi-star"></i>
+                                            <i class="bi bi-star"></i>
+                                            <i class="bi bi-star"></i>
+                                            <i class="bi bi-star"></i>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <h6 class="fw-bold mb-2 ther-color">Type</h6>
+
+                                <div class="form-check">
+                                    <input class="form-check-input" type="checkbox">
+                                    <label class="form-check-label ther-color">Cultural</label>
+                                </div>
+
+                                <div class="form-check">
+                                    <input class="form-check-input" type="checkbox">
+                                    <label class="form-check-label ther-color">Religious</label>
+                                </div>
+
+                                <div class="form-check">
+                                    <input class="form-check-input" type="checkbox">
+                                    <label class="form-check-label ther-color">Safari</label>
+                                </div>
+                                <div class="form-check">
+                                    <input class="form-check-input" type="checkbox">
+                                    <label class="form-check-label ther-color">Medical</label>
+                                </div>
+                                <div class="form-check">
+                                    <input class="form-check-input" type="checkbox">
+                                    <label class="form-check-label ther-color">Coastal</label>
+                                </div>
+                                <div class="form-check">
+                                    <input class="form-check-input" type="checkbox">
+                                    <label class="form-check-label ther-color mb-3">Entertainment</label>
+                                </div>
+
+                                <div class="d-flex gap-2">
+                                    <button class="border-0 py-1 rounded sec-color w-50">Reset</button>
+                                    <button class="border-0 py-1 rounded apply-btn text-white w-50">Apply</button>
+                                </div>
+
+                            </div>
+                        </div>
+
+                    </div>
+
+                </div>
+            </div>
+
+
+            <!-- cards -->
+            <div class="row g-4" id="cardsContainer">
+                <!-- card -->
+                <div class="col-lg-3 col-md-4 col-12 page-card">
+                    <div class="card border-0 position-relative overflow-hidden">
+                        <!-- discount ribbon -->
+                        <span class="discount-ribbon">25% Off</span>
+
+                        <button class="fav-btn">♥</button>
+                        <img src="img/Rectangle 31.png">
+                        <p class="fs-5 fw-semibold mb-0 place">Cairo Tower </p>
+                        <p class="location my-1">Cairo</p>
+                        <!-- stars -->
+                        <!-- stars + valid -->
+                        <div class="d-flex justify-content-between align-items-center">
+                            <div class="stars">★★★★☆</div>
+                            <small class="ther-color">Valid till 22 May</small>
+                        </div>
+                        <!-- price -->
+                        <div class="d-flex justify-content-between align-items-center mt-2">
+
+                            <div class="d-flex align-items-center gap-1">
+                                <span class="old-price mb-0">200</span>
+                                <p class="price mb-0">150 EGP</p>
+                            </div>
+                            <button class="book-btn">Book Now</button>
+
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-4 col-12 page-card">
+                    <div class="card border-0 position-relative overflow-hidden">
+                        <!-- discount ribbon -->
+                        <span class="discount-ribbon">30% Off</span>
+
+                        <button class="fav-btn">♥</button>
+                        <img src="img/Rectangle 31 (1).png">
+                        <p class="fs-5 fw-semibold mb-0 place">Prince Mohamed Ali Palace</p>
+                        <p class="location my-1">Cairo</p>
+                        <!-- stars + valid -->
+                        <div class="d-flex justify-content-between align-items-center">
+                            <div class="stars">★★★★☆</div>
+                            <small class="ther-color">Valid till 19 May</small>
+                        </div>
+                        <!-- price -->
+                        <div class="d-flex justify-content-between align-items-center mt-2">
+
+                            <div class="d-flex align-items-center gap-1">
+                                <span class="old-price mb-0">150</span>
+                                <p class="price mb-0">100 EGP</p>
+                            </div>
+                            <button class="book-btn">Book Now</button>
+
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+            <nav class="mt-5">
+                <ul class="pagination justify-content-center custom-pagination" id="pagination"></ul>
+            </nav>
+        </div>
+    </section>
+
+    <footer class="footer-bg pt-5 footer ">
+
+        <div class="px-4 px-md-5 align-items-center">
+            <div class="row text-start px-4 md:px-8">
+
+                <!-- LOGO -->
+                <div class="col-lg-4 col-md-6 mb-4 d-flex flex-column align-items-start mx-auto">
+                    <img src="img/logo.png" class="mb-3 " style="width:120px;">
+
+                    <p class="lh-lg fs-6 fw-bold">
+                        Explore Egypt In A Smarter And Easier Way.
+                        Discover Places, Book Trips, And Enjoy Your Journey.
+                    </p>
+                </div>
+
+                <!-- LINKS -->
+                <div
+                    class="col-lg-4 col-md-6 mb-4 text-start d-flex flex-column align-items-center text-decoration-none">
+                    <ul class="list-unstyled ">
+                        <a href="#" class="text-decoration-none">
+                            <li class="mb-2 footer-link fs-6 fw-semibold gold ">Category</li>
+                        </a>
+                        <a href="#" class="text-decoration-none">
+                            <li class="mb-2 footer-link fs-6 fw-semibold gold">Hidden</li>
+                        </a>
+                        <a href="#" class="text-decoration-none">
+                            <li class="mb-2 footer-link fs-6 fw-semibold gold">Offers</li>
+                        </a>
+                    </ul>
+                    <ul class="list-unstyled mt-4">
+                        <a href="#" class="text-decoration-none">
+                            <li class="mb-2 footer-link fs-6 fw-semibold gold">About us</li>
+                        </a>
+                        <a href="#" class="text-decoration-none">
+                            <li class="mb-2 footer-link fs-6 fw-semibold gold">Contact</li>
+                        </a>
+                        <a href="#" class="text-decoration-none">
+                            <li class="mb-2 footer-link fs-6 fw-semibold gold">FAQs</li>
+                        </a>
+                    </ul>
+                </div>
+
+                <!-- CONTACT -->
+                <div class="col-lg-3 col-md-6 mb-4 d-flex flex-column align-items-center align-items-lg-start 
+            text-center text-lg-start mx-auto">
+                    <h5 class="mb-2 fs-5 fw-semibold">Contact Us:</h5>
+                    <p class="mb-5 fs-6 fw-semibold footer-link">Info@gawla.com</p>
+
+                    <h5 class="mt-5 mb-3 fw-semibold fs-5">Follow Us</h5>
+                    <div class="d-flex justify-content-center justify-content-md-start gap-4 fs-5">
+                        <a href="#" class=" fs-4">
+                            <i class="fa-brands fa-instagram gold text-decoration-none footer-link"></i>
+                        </a>
+
+                        <a href="#" class=" fs-4">
+                            <i class="fa-brands fa-facebook-f gold text-decoration-none footer-link"></i>
+                        </a>
+
+                        <a href="#" class="fs-4">
+                            <i class="fa-brands fa-x-twitter gold text-decoration-none footer-link"></i>
+                        </a>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+
+        <!-- bottom -->
+        <div class="text-start py-2 mt-4 fs-6 fw-bolder ps-3 " style="background:#A48F64; color:black;">
+            © 2026 Gawla. All rights reserved
+        </div>
+
+    </footer>
+
+    <script src="script.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>
