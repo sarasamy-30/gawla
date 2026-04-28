@@ -1,0 +1,437 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cairo Tourism</title>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&family=Outfit:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+    <!-- Font Awesome for icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+
+<body>
+
+    <!-- Header -->
+    <header class="header">
+        <a href="index.html" class="logo">
+            <i class="fa-solid fa-sun logo-icon"></i>
+            <span>GAWLA</span>
+        </a>
+        <nav class="nav-links" id="nav-links">
+            <a href="#" class="active">Lists</a>
+            <a href="#">Villages</a>
+            <a href="#">Attractions</a>
+            <a href="#">Map</a>
+        </nav>
+        <div class="header-actions" id="header-actions">
+            <button class="btn-outline" onclick="window.location.href='login.html'">Log in</button>
+            <button class="btn-solid" onclick="window.location.href='signup.html'">Sign Up</button>
+            <div class="cart-circle">
+                <i class="fa-solid fa-cart-shopping"></i>
+            </div>
+        </div>
+        <div class="mobile-menu" id="mobile-menu">
+            <i class="fa-solid fa-bars"></i>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero" style="background-image: linear-gradient(rgba(36, 36, 72, 0.4), rgba(36, 36, 72, 0.6)), url('assets/hero_sunset.png');">
+        <div class="hero-content">
+            <h1>Cairo</h1>
+            <p class="hero-subtitle">Where History Meets Modernity</p>
+            <div class="search-wrapper">
+                <div class="search-bar">
+                    <i class="fa-solid fa-magnifying-glass search-icon"></i>
+                    <input type="text" placeholder="Search for places, activities...">
+                    <button class="btn-primary search-btn">Explore</button>
+                </div>
+                <div class="weather-badges">
+                    <div class="badge"><i class="fa-solid fa-cloud-sun"></i> 22°C | Clear</div>
+                    <div class="badge"><i class="fa-regular fa-clock"></i> Local Time</div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- What Makes Cairo Special -->
+    <section class="special-features">
+        <h2>What Makes Cairo Special?</h2>
+        <div class="features-grid">
+            <div class="feature-item">
+                <div class="feature-img" style="background-image: url('assets/pyramids.png');">
+                    <span>History</span>
+                </div>
+            </div>
+            <div class="feature-item">
+                <div class="feature-img" style="background-image: url('assets/egyptian_museum.png');">
+                    <span>Cultural</span>
+                </div>
+            </div>
+            <div class="feature-item">
+                <div class="feature-img" style="background-image: url('assets/khan_el_khalili.png');">
+                    <span>Energy</span>
+                </div>
+            </div>
+            <div class="feature-item">
+                <div class="feature-img" style="background-image: url('assets/cairo_nightlife.png');">
+                    <span>Night Life</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Top Places In Cairo -->
+    <section class="top-places">
+        <h2>Top Places in Cairo</h2>
+        <p class="section-subtitle">Don't Miss These Iconic Spots</p>
+
+        <div class="carousel-container">
+            <button class="carousel-btn prev-btn"><i class="fa-solid fa-chevron-left"></i></button>
+
+            <div class="cards-wrapper">
+                <div class="card">
+                    <div class="card-img" style="background-image: url('assets/pyramids_camels.png');">
+                        <div class="heart-icon"><i class="fa-solid fa-heart"></i></div>
+                    </div>
+                    <div class="card-content">
+                        <h3>Pyramids of Giza</h3>
+                        <p class="location">Cairo</p>
+                        <div class="rating"><i class="fa-solid fa-star"></i> 4.9</div>
+                        <span class="tag"><i class="fa-solid fa-landmark"></i> Historical Site</span>
+                    </div>
+                </div>
+
+                <div class="card">
+                    <div class="card-img" style="background-image: url('assets/egyptian_museum.png');">
+                        <div class="heart-icon active"><i class="fa-solid fa-heart"></i></div>
+                    </div>
+                    <div class="card-content">
+                        <h3>The Grand Egyptian Museum</h3>
+                        <p class="location">Cairo</p>
+                        <div class="rating"><i class="fa-solid fa-star"></i> 4.8</div>
+                        <span class="tag"><i class="fa-solid fa-building-columns"></i> Museum</span>
+                    </div>
+                </div>
+
+                <div class="card">
+                    <div class="card-img" style="background-image: url('assets/khan_el_khalili.png');">
+                        <div class="heart-icon"><i class="fa-solid fa-heart"></i></div>
+                    </div>
+                    <div class="card-content">
+                        <h3>Khan El-Khalili</h3>
+                        <p class="location">Cairo</p>
+                        <div class="rating"><i class="fa-solid fa-star"></i> 4.9</div>
+                        <span class="tag"><i class="fa-solid fa-store"></i> Culture and Markets</span>
+                    </div>
+                </div>
+                
+                <div class="card">
+                    <div class="card-img" style="background-image: url('assets/hero_cairo.png');">
+                        <div class="heart-icon"><i class="fa-solid fa-heart"></i></div>
+                    </div>
+                    <div class="card-content">
+                        <h3>Cairo Citadel</h3>
+                        <p class="location">Cairo</p>
+                        <div class="rating"><i class="fa-solid fa-star"></i> 4.7</div>
+                        <span class="tag"><i class="fa-solid fa-landmark"></i> Historical Site</span>
+                    </div>
+                </div>
+            </div>
+
+            <button class="carousel-btn next-btn"><i class="fa-solid fa-chevron-right"></i></button>
+        </div>
+
+        <div class="view-all">
+            <a href="#">View All Places <i class="fa-solid fa-arrow-right-long"></i></a>
+        </div>
+    </section>
+
+    <!-- Historical Landmarks In Cairo -->
+    <section class="historical-landmarks">
+        <h2>Historical Landmarks In Cairo</h2>
+        <p class="section-subtitle">Explore Ancient Sites And Timeless Architecture</p>
+
+        <div class="filters-circular">
+            <div class="filter-circle active" style="background-image: url('assets/hero_sunset.png');"><span>ALL</span></div>
+            <div class="filter-circle" style="background-image: url('assets/pyramids.png');"><span>Historical</span></div>
+            <div class="filter-circle" style="background-image: url('assets/egyptian_museum.png');"><span>Cultural</span></div>
+            <div class="filter-circle" style="background-image: url('assets/cairo_nightlife.png');"><span>Night Life</span></div>
+            <div class="filter-circle" style="background-image: url('assets/khan_el_khalili.png');"><span>Markets</span></div>
+            <div class="filter-circle" style="background-image: url('assets/mosque.png');"><span>Religious</span></div>
+        </div>
+
+        <div class="cards-wrapper grid-layout">
+            <div class="card">
+                <div class="card-img" style="background-image: url('assets/pyramids_camels.png');">
+                    <div class="heart-icon"><i class="fa-solid fa-heart"></i></div>
+                </div>
+                <div class="card-content">
+                    <h3>Pyramids of Giza</h3>
+                    <p class="location">Cairo</p>
+                    <div class="rating"><i class="fa-solid fa-star"></i> 4.9</div>
+                    <span class="tag"><i class="fa-solid fa-landmark"></i> Historical Site</span>
+                </div>
+            </div>
+
+            <div class="card">
+                <div class="card-img" style="background-image: url('assets/al_muizz.png');">
+                    <div class="heart-icon"><i class="fa-solid fa-heart"></i></div>
+                </div>
+                <div class="card-content">
+                    <h3>Al-Muizz Street</h3>
+                    <p class="location">Cairo</p>
+                    <div class="rating"><i class="fa-solid fa-star"></i> 4.7</div>
+                    <span class="tag"><i class="fa-solid fa-landmark"></i> Historical Landmark</span>
+                </div>
+            </div>
+
+            <div class="card">
+                <div class="card-img" style="background-image: url('assets/hero_cairo.png');">
+                    <div class="heart-icon"><i class="fa-solid fa-heart"></i></div>
+                </div>
+                <div class="card-content">
+                    <h3>Cairo Citadel</h3>
+                    <p class="location">Cairo</p>
+                    <div class="rating"><i class="fa-solid fa-star"></i> 4.7</div>
+                    <span class="tag"><i class="fa-solid fa-landmark"></i> Historical Landmark</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Events & Activities -->
+    <section class="events-activities">
+        <h2>Events & Activities</h2>
+        <p class="section-subtitle">Don't Miss These Unique Experiences Happening Around The City</p>
+
+        <div class="events-grid">
+            <div class="event-card" style="background-image: linear-gradient(to right, rgba(36, 36, 72, 0.95) 10%, rgba(36, 36, 72, 0.6) 50%, transparent), url('assets/pyramids_camels.png');">
+                <div class="event-info">
+                    <h3>Sound & Light Show At The Pyramids</h3>
+                    <p>Daily - 7:00 PM</p>
+                    <p>Giza</p>
+                    <button class="btn-outline gold-outline">Explore <i class="fa-solid fa-chevron-right"></i></button>
+                </div>
+            </div>
+
+            <div class="event-card" style="background-image: linear-gradient(to right, rgba(36, 36, 72, 0.95) 10%, rgba(36, 36, 72, 0.6) 50%, transparent), url('assets/cairo_nightlife.png');">
+                <div class="event-info">
+                    <h3>Nile Dinner Cruise</h3>
+                    <p>Daily</p>
+                    <p>Nile River</p>
+                    <button class="btn-outline gold-outline">Explore <i class="fa-solid fa-chevron-right"></i></button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Beyond The Usual: Hidden Gems -->
+    <section class="hidden-gems">
+        <h2>Beyond The Usual: Hidden Gems</h2>
+        <p class="section-subtitle">Not Everything Worth Seeing Is Famous</p>
+
+        <div class="carousel-container">
+            <button class="carousel-btn prev-btn"><i class="fa-solid fa-chevron-left"></i></button>
+
+            <div class="cards-wrapper">
+                <div class="card">
+                    <div class="card-img" style="background-image: url('assets/bayt_el_suhaymi.png');">
+                        <span class="top-left-tag">Hidden Gem</span>
+                        <div class="heart-icon"><i class="fa-solid fa-heart"></i></div>
+                    </div>
+                    <div class="card-content flex-row">
+                        <div class="left-col">
+                            <h3>Bayt El-Suhaymi</h3>
+                            <p class="location"><i class="fa-solid fa-location-dot"></i> Cairo</p>
+                            <p class="small-desc">Guest House</p>
+                            <p class="price-entry">Entry 50 EGP</p>
+                        </div>
+                        <div class="right-col">
+                            <button class="btn-outline gold-solid">Explore <i class="fa-solid fa-arrow-right"></i></button>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="card">
+                    <div class="card-img" style="background-image: url('assets/nilometer.png');">
+                        <span class="top-left-tag">Hidden Gem</span>
+                        <div class="heart-icon"><i class="fa-solid fa-heart"></i></div>
+                    </div>
+                    <div class="card-content flex-row">
+                        <div class="left-col">
+                            <h3>Nilometer (Roda Island)</h3>
+                            <p class="location"><i class="fa-solid fa-location-dot"></i> Cairo</p>
+                            <p class="small-desc">Historical Spot</p>
+                            <p class="price-entry">Entry 20 EGP</p>
+                        </div>
+                        <div class="right-col">
+                            <button class="btn-outline gold-solid">Explore <i class="fa-solid fa-arrow-right"></i></button>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="card">
+                    <div class="card-img" style="background-image: url('assets/prince_mohamed.png');">
+                        <span class="top-left-tag">Hidden Gem</span>
+                        <div class="heart-icon"><i class="fa-solid fa-heart"></i></div>
+                    </div>
+                    <div class="card-content flex-row">
+                        <div class="left-col">
+                            <h3>Prince Mohamed Ali Palace</h3>
+                            <p class="location"><i class="fa-solid fa-location-dot"></i> Cairo</p>
+                            <p class="small-desc">Museum</p>
+                            <p class="price-entry">Entry 50 EGP</p>
+                        </div>
+                        <div class="right-col">
+                            <button class="btn-outline gold-solid">Explore <i class="fa-solid fa-arrow-right"></i></button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <button class="carousel-btn next-btn"><i class="fa-solid fa-chevron-right"></i></button>
+        </div>
+    </section>
+
+    <!-- 1 Day Experiences -->
+    <section class="experiences">
+        <h2>1 Day Experiences in Cairo</h2>
+        <p class="section-subtitle">Choose Your Perfect Trip Easily</p>
+
+        <div class="carousel-container">
+            <button class="carousel-btn prev-btn"><i class="fa-solid fa-chevron-left"></i></button>
+
+            <div class="cards-wrapper">
+                <div class="card experience-card">
+                    <div class="card-img" style="background-image: url('assets/pyramids.png');">
+                        <div class="heart-icon"><i class="fa-solid fa-heart"></i></div>
+                    </div>
+                    <div class="card-content">
+                        <h3>Cairo Highlight</h3>
+                        <p class="location">Cairo</p>
+                        <p class="stops">Stops:</p>
+                        <ul>
+                            <li>Pyramids of Giza</li>
+                            <li>Sphinx</li>
+                            <li>The Grand Egyptian Museum</li>
+                        </ul>
+                        <div class="rating-stars">
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star-half-stroke"></i>
+                        </div>
+                        <div class="flex-row bottom-row">
+                            <div class="price"><span>850</span> EGP</div>
+                            <button class="btn-solid grey-solid">View Details</button>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="card experience-card">
+                    <div class="card-img" style="background-image: url('assets/hero_cairo.png');">
+                        <div class="heart-icon"><i class="fa-solid fa-heart"></i></div>
+                    </div>
+                    <div class="card-content">
+                        <h3>Old Cairo Heritage</h3>
+                        <p class="location">Cairo</p>
+                        <p class="stops">Stops:</p>
+                        <ul>
+                            <li>The Citadel Of Saladin</li>
+                            <li>Old Cairo District</li>
+                            <li>Khan el-Khalili Bazaar</li>
+                        </ul>
+                        <div class="rating-stars">
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-regular fa-star"></i>
+                        </div>
+                        <div class="flex-row bottom-row">
+                            <div class="price"><span>700</span> EGP</div>
+                            <button class="btn-solid grey-solid">View Details</button>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="card experience-card">
+                    <div class="card-img" style="background-image: url('assets/cairo_nightlife.png');">
+                        <div class="heart-icon"><i class="fa-solid fa-heart"></i></div>
+                    </div>
+                    <div class="card-content">
+                        <h3>Nile Experience</h3>
+                        <p class="location">Cairo</p>
+                        <p class="stops">Stops:</p>
+                        <ul>
+                            <li>Cairo Tower</li>
+                            <li>Felucca Ride</li>
+                            <li>Nile Dinner Cruise</li>
+                        </ul>
+                        <div class="rating-stars">
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star-half-stroke"></i>
+                        </div>
+                        <div class="flex-row bottom-row">
+                            <div class="price"><span>750</span> EGP</div>
+                            <button class="btn-solid grey-solid">View Details</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <button class="carousel-btn next-btn"><i class="fa-solid fa-chevron-right"></i></button>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="footer-content">
+            <div class="footer-brand">
+                <div class="logo">
+                    <i class="fa-solid fa-sun logo-icon"></i>
+                    <span>GAWLA</span>
+                </div>
+                <p>Explore Egypt in a Smarter And Easier Way.<br>Discover Places, Book Trips, And Enjoy Your Journey.</p>
+            </div>
+            <div class="footer-links">
+                <div class="link-group">
+                    <a href="#">Home</a>
+                    <a href="#">Category</a>
+                    <a href="#">Hidden Gems</a>
+                    <a href="#">Offers</a>
+                </div>
+                <div class="link-group">
+                    <a href="#">About Us</a>
+                    <a href="#">Contact</a>
+                    <a href="#">FAQ</a>
+                </div>
+            </div>
+            <div class="footer-contact">
+                <h4>Contact Us</h4>
+                <p>info@gawla.com.eg</p>
+                <div class="social-links">
+                    <h4>Follow Us</h4>
+                    <div class="social-icons">
+                        <a href="#"><i class="fa-brands fa-instagram"></i></a>
+                        <a href="#"><i class="fa-brands fa-facebook-f"></i></a>
+                        <a href="#"><i class="fa-brands fa-x-twitter"></i></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2026 Gawla. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
